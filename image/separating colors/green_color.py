@@ -9,7 +9,6 @@ im1.show()
 
 a = numpy.asarray(im1)
 row = 0
-pixels = numpy.ones((500,500,3))
 im2 = Image.new(im1.mode,(500,500))
 new_pixels = im2.load()
 
