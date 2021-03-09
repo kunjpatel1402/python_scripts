@@ -17,7 +17,7 @@ for i in a:
     col = 0
     for j in i:
         print (j," ", row*500 + col)
-        new_pixels[row,col] = (255-j[0],255-j[1],255-j[2])
+        new_pixels[col,row] = (255-j[0],255-j[1],255-j[2])
         print (new_pixels[row,col])
         #print (pixels[row-1,col-1])
         #print (row,col)
